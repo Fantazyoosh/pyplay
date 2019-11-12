@@ -53,7 +53,6 @@ b = 100
 
 
 
-
 for i in range(a, b+1):
     if (i > 2 and i % 2 != 0 and i % 5 != 0) or i == 2 or i == 5:
         for d in primes:
@@ -67,4 +66,6 @@ for i in range(a, b+1):
 
 notprimes.sort()
 print(notprimes)
+print(notprimes)
 
+#test
