@@ -9,7 +9,6 @@
 #                 print(i)
 
 
-
 # primes = [2, 3]
 # notprimes = [1]
 
@@ -18,13 +17,10 @@
 # b = 100
 
 
-
-
 # for p in primes:
 #     m = int((b + 1) / p)
 #     for mc in range (2, m + 1):
 #         notprimes.append(p * mc)
-
 
 
 # notprimes.sort()
@@ -42,15 +38,7 @@ notprimes = [1]
 
 a = 1
 b = 100
-
-
-
-
-
-
-
-
-
+p = 1
 
 
 for i in range(a, b+1):
@@ -61,13 +49,13 @@ for i in range(a, b+1):
             elif d == primes[len(primes)-1]:
                 primes.append(i)
                 m = int((b + 1) / p)
-                for mc in range (2, m + 1):
+                for mc in range(2, m + 1):
                     notprimes.append(p * mc)
 
 notprimes.sort()
 print(notprimes)
 print(notprimes)
 
-#test
-#erer
-#more lines
+# test
+# erer
+# more lines
